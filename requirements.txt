@@ -1,0 +1,2 @@
+colorama==0.3.7
+getch==1.0
