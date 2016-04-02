@@ -1,6 +1,6 @@
-import colorama
+from colorama import init
 init(autoreset=True)
-
+from colorama import(Fore,Back)
 
 from time import sleep
 lines = [[] for i in range(9)]
@@ -313,7 +313,7 @@ def print_player_hand(number_of_cards,board_label,menu_selected,hand_score,curre
             for x in range(len(lines)):
                 print(lines[x][0])
         else:
-
+            pass
     else:
         board_label = "DEALER"
         if current_turn == 'player':
